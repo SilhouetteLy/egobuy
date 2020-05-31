@@ -1,0 +1,11 @@
+com/silhouette/egobuy/mapper/TbItemParamItemMapper.class
+com/silhouette/egobuy/mapper/TbItemParamMapper.class
+com/silhouette/egobuy/mapper/TbOrderItemMapper.class
+com/silhouette/egobuy/mapper/TbOrderMapper.class
+com/silhouette/egobuy/mapper/TbContentCategoryMapper.class
+com/silhouette/egobuy/mapper/TbItemMapper.class
+com/silhouette/egobuy/mapper/TbOrderShippingMapper.class
+com/silhouette/egobuy/mapper/TbContentMapper.class
+com/silhouette/egobuy/mapper/TbUserMapper.class
+com/silhouette/egobuy/mapper/TbItemCatMapper.class
+com/silhouette/egobuy/mapper/TbItemDescMapper.class

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/egobuy-common/egobuy-common.iml" filepath="$PROJECT_DIR$/egobuy-common/egobuy-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager.iml" filepath="$PROJECT_DIR$/egobuy-manager/egobuy-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager-dao/egobuy-manager-dao.iml" filepath="$PROJECT_DIR$/egobuy-manager/egobuy-manager-dao/egobuy-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager-interface/egobuy-manager-interface.iml" filepath="$PROJECT_DIR$/egobuy-manager/egobuy-manager-interface/egobuy-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager-pojo/egobuy-manager-pojo.iml" filepath="$PROJECT_DIR$/egobuy-manager/egobuy-manager-pojo/egobuy-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager-service/egobuy-manager-service.iml" filepath="$PROJECT_DIR$/egobuy-manager/egobuy-manager-service/egobuy-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager-web/egobuy-manager-web.iml" filepath="$PROJECT_DIR$/egobuy-manager/egobuy-manager-web/egobuy-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/egobuy-parent/egobuy-parent.iml" filepath="$PROJECT_DIR$/egobuy-parent/egobuy-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generatorSqlmapCustom/generatorSqlmapCustom.iml" filepath="$PROJECT_DIR$/generatorSqlmapCustom/generatorSqlmapCustom.iml" />
+    </modules>
+  </component>
+</project>

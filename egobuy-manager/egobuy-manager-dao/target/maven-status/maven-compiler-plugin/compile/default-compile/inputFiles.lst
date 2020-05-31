@@ -1,0 +1,11 @@
+/Users/silhouette/git_demo/egobuy/egobuy-manager/egobuy-manager-dao/src/main/java/com/silhouette/egobuy/mapper/TbItemCatMapper.java
+/Users/silhouette/git_demo/egobuy/egobuy-manager/egobuy-manager-dao/src/main/java/com/silhouette/egobuy/mapper/TbUserMapper.java
+/Users/silhouette/git_demo/egobuy/egobuy-manager/egobuy-manager-dao/src/main/java/com/silhouette/egobuy/mapper/TbItemMapper.java
+/Users/silhouette/git_demo/egobuy/egobuy-manager/egobuy-manager-dao/src/main/java/com/silhouette/egobuy/mapper/TbContentCategoryMapper.java
+/Users/silhouette/git_demo/egobuy/egobuy-manager/egobuy-manager-dao/src/main/java/com/silhouette/egobuy/mapper/TbContentMapper.java
+/Users/silhouette/git_demo/egobuy/egobuy-manager/egobuy-manager-dao/src/main/java/com/silhouette/egobuy/mapper/TbOrderItemMapper.java
+/Users/silhouette/git_demo/egobuy/egobuy-manager/egobuy-manager-dao/src/main/java/com/silhouette/egobuy/mapper/TbItemDescMapper.java
+/Users/silhouette/git_demo/egobuy/egobuy-manager/egobuy-manager-dao/src/main/java/com/silhouette/egobuy/mapper/TbItemParamMapper.java
+/Users/silhouette/git_demo/egobuy/egobuy-manager/egobuy-manager-dao/src/main/java/com/silhouette/egobuy/mapper/TbOrderMapper.java
+/Users/silhouette/git_demo/egobuy/egobuy-manager/egobuy-manager-dao/src/main/java/com/silhouette/egobuy/mapper/TbItemParamItemMapper.java
+/Users/silhouette/git_demo/egobuy/egobuy-manager/egobuy-manager-dao/src/main/java/com/silhouette/egobuy/mapper/TbOrderShippingMapper.java

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="egobuy-manager-web" />
+        <module name="egobuy-common" />
+        <module name="egobuy-manager-pojo" />
+        <module name="egobuy-manager-interface" />
+        <module name="egobuy-manager-dao" />
+        <module name="egobuy-manager-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="egobuy-common" target="1.8" />
+      <module name="egobuy-manager" target="1.8" />
+      <module name="egobuy-manager-dao" target="1.8" />
+      <module name="egobuy-manager-interface" target="1.8" />
+      <module name="egobuy-manager-pojo" target="1.8" />
+      <module name="egobuy-manager-service" target="1.8" />
+      <module name="egobuy-manager-web" target="1.8" />
+      <module name="egobuy-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

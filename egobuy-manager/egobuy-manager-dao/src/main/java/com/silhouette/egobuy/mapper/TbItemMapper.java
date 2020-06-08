@@ -2,6 +2,7 @@ package com.silhouette.egobuy.mapper;
 
 import com.silhouette.egobuy.pojo.TbItem;
 import com.silhouette.egobuy.pojo.TbItemExample;
+import com.silhouette.egobuy.query.ItemQuery;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -28,4 +29,6 @@ public interface TbItemMapper {
     int updateByPrimaryKeySelective(TbItem record);
 
     int updateByPrimaryKey(TbItem record);
+
+    List<TbItem> findByPages(ItemQuery itemQuery);
 }

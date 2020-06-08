@@ -1,6 +1,8 @@
 package com.silhouette.egobuy.service;
 
 import com.silhouette.egobuy.pojo.TbItem;
+import com.silhouette.egobuy.query.ItemQuery;
+import com.silhouette.egobuy.result.EasyUIDataGridResult;
 
 /**
  * @author liuyi
@@ -12,4 +14,6 @@ import com.silhouette.egobuy.pojo.TbItem;
 public interface ItemService {
 
     TbItem findItemById(Long itemId);
+
+    EasyUIDataGridResult findByPages(ItemQuery query);
 }

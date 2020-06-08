@@ -1,10 +1,18 @@
 package com.silhouette.egobuy.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import com.silhouette.egobuy.base.BaseConst;
 import com.silhouette.egobuy.mapper.TbItemMapper;
 import com.silhouette.egobuy.pojo.TbItem;
+import com.silhouette.egobuy.query.ItemQuery;
+import com.silhouette.egobuy.result.EasyUIDataGridResult;
+import com.silhouette.egobuy.result.PageInfoResult;
 import com.silhouette.egobuy.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * @author liuyi
@@ -13,7 +21,8 @@ import org.springframework.stereotype.Service;
  * @company: http://www.u7power.cn
  * @description:
  */
-@Service
+//@Service("itemService")
+@Service(interfaceClass = ItemService.class)
 public class ItemServiceImpl implements ItemService {
 
     @Autowired
@@ -21,5 +30,13 @@ public class ItemServiceImpl implements ItemService {
     @Override
     public TbItem findItemById(Long itemId) {
         return itemMapper.selectByPrimaryKey(itemId);
+    }
+
+    @Override
+    public EasyUIDataGridResult findByPages(ItemQuery query) {
+        PageHelper.startPage(query.getPageNumber(),query.getPageSize());
+        List<TbItem> list = itemMapper.findByPages(query);
+        PageInfo<TbItem> pageInfo = new PageInfo<TbItem>(list);
+        return new EasyUIDataGridResult(pageInfo.getTotal(),list);
     }
 }

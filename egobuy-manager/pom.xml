@@ -8,7 +8,6 @@
         <module>egobuy-manager-dao</module>
         <module>egobuy-manager-interface</module>
         <module>egobuy-manager-service</module>
-        <module>egobuy-manager-web</module>
     </modules>
     <parent>
         <artifactId>egobuy-parent</artifactId>
@@ -36,8 +35,8 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <configuration>
                     <!--'/'表示运行时不带工程名-->
-                    <path>/egobuy-manager-web</path>
-                    <port>8080</port>
+                    <!--<path>/egobuy-manager-web</path>-->
+                    <port>9080</port>
                 </configuration>
             </plugin>
         </plugins>

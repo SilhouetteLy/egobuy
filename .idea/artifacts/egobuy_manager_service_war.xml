@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="egobuy-manager-service:war">
+    <output-path>$PROJECT_DIR$/egobuy-manager/egobuy-manager-service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>egobuy-manager-service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="egobuy-manager-service.war">
+      <element id="artifact" artifact-name="egobuy-manager-service:war exploded" />
+    </root>
+  </artifact>
+</component>

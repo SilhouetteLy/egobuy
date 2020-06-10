@@ -6,15 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-admin" />
         <module name="egobuy-manager-web" />
         <module name="egobuy-common" />
         <module name="egobuy-manager-pojo" />
         <module name="egobuy-manager-interface" />
+        <module name="fastdfs_client" />
         <module name="egobuy-manager-dao" />
         <module name="egobuy-manager-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dubbo-admin" target="1.8" />
       <module name="egobuy-common" target="1.8" />
       <module name="egobuy-manager" target="1.8" />
       <module name="egobuy-manager-dao" target="1.8" />
@@ -23,6 +26,12 @@
       <module name="egobuy-manager-service" target="1.8" />
       <module name="egobuy-manager-web" target="1.8" />
       <module name="egobuy-parent" target="1.8" />
+      <module name="fastdfs_client" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbo-admin" options="-parameters" />
+    </option>
   </component>
 </project>

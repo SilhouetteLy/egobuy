@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @author liuyi
  * @version 1.0
  * @create -- 11:09
- * @company: http://www.u7power.cn
  * @description:
  */
 @Controller

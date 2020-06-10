@@ -8,7 +8,6 @@ import java.util.List;
  * @author liuyi
  * @version 1.0
  * @create -- 22:41
- * @company: http://www.u7power.cn
  * @description:
  */
 public class GenericResult<T> extends BaseResult {

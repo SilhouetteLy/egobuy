@@ -8,7 +8,6 @@ import java.io.Serializable;
  * @author liuyi
  * @version 1.0
  * @create -- 22:28
- * @company: http://www.u7power.cn
  * @description:
  */
 public class ItemQuery extends BaseQuery implements Serializable {

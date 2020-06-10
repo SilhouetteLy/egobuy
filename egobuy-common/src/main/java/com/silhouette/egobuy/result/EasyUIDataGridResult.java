@@ -8,7 +8,6 @@ import java.util.List;
  * @author liuyi
  * @version 1.0
  * @create -- 00:06
- * @company: http://www.u7power.cn
  * @description: 专门用来封装EasyUIDataGrid的数据
  */
 public class EasyUIDataGridResult extends BaseResult {

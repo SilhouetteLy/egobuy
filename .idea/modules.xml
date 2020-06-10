@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dubbo-admin/dubbo-admin.iml" filepath="$PROJECT_DIR$/dubbo-admin/dubbo-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/egobuy-common/egobuy-common.iml" filepath="$PROJECT_DIR$/egobuy-common/egobuy-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager.iml" filepath="$PROJECT_DIR$/egobuy-manager/egobuy-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager-dao/egobuy-manager-dao.iml" filepath="$PROJECT_DIR$/egobuy-manager/egobuy-manager-dao/egobuy-manager-dao.iml" />
@@ -10,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager-service/egobuy-manager-service.iml" filepath="$PROJECT_DIR$/egobuy-manager/egobuy-manager-service/egobuy-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/egobuy-manager-web/egobuy-manager-web.iml" filepath="$PROJECT_DIR$/egobuy-manager-web/egobuy-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/egobuy-parent/egobuy-parent.iml" filepath="$PROJECT_DIR$/egobuy-parent/egobuy-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fastdfs_client/fastdfs_client.iml" filepath="$PROJECT_DIR$/fastdfs_client/fastdfs_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/generatorSqlmapCustom/generatorSqlmapCustom.iml" filepath="$PROJECT_DIR$/generatorSqlmapCustom/generatorSqlmapCustom.iml" />
     </modules>
   </component>

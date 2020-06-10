@@ -3,12 +3,10 @@ package com.silhouette.egobuy.service.impl;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.silhouette.egobuy.base.BaseConst;
 import com.silhouette.egobuy.mapper.TbItemMapper;
 import com.silhouette.egobuy.pojo.TbItem;
 import com.silhouette.egobuy.query.ItemQuery;
 import com.silhouette.egobuy.result.EasyUIDataGridResult;
-import com.silhouette.egobuy.result.PageInfoResult;
 import com.silhouette.egobuy.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -18,8 +16,7 @@ import java.util.List;
  * @author liuyi
  * @version 1.0
  * @create -- 11:09
- * @company: http://www.u7power.cn
- * @description:
+ * @description: 商品的服务实现类
  */
 //@Service("itemService")
 @Service(interfaceClass = ItemService.class)

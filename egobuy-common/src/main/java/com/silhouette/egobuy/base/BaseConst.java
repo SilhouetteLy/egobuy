@@ -4,7 +4,6 @@ package com.silhouette.egobuy.base;
  * @author liuyi
  * @version 1.0
  * @create -- 22:19
- * @company: http://www.u7power.cn
  * @description:
  */
 public class BaseConst {

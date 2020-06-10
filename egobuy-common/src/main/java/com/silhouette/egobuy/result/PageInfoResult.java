@@ -7,7 +7,6 @@ import com.silhouette.egobuy.base.BaseResult;
  * @author liuyi
  * @version 1.0
  * @create -- 22:26
- * @company: http://www.u7power.cn
  * @description:
  */
 public class PageInfoResult<T> extends BaseResult {

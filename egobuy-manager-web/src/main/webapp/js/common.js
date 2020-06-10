@@ -55,15 +55,15 @@ var E3 = {
         	return '未知';
         }
     },
-    
-    init : function(data){
-    	// 初始化图片上传组件
-    	this.initPicUpload(data);
+
+    init : function(baseUrl,data){
+		// 初始化图片上传组件
+    	this.initPicUpload(baseUrl,data);
     	// 初始化选择类目组件
-    	this.initItemCat(data);
+    	this.initItemCat(baseUrl,data);
     },
     // 初始化图片上传组件
-    initPicUpload : function(data){
+    initPicUpload : function(baseUrl,data){
     	$(".picFileUpload").each(function(i,e){
     		var _ele = $(e);
     		_ele.siblings("div.pics").remove();
@@ -103,8 +103,8 @@ var E3 = {
     },
     
     // 初始化选择类目组件
-    initItemCat : function(data){
-    	$(".selectItemCat").each(function(i,e){
+    initItemCat : function(baseUrl,data){
+		$(".selectItemCat").each(function(i,e){
     		var _ele = $(e);
     		if(data && data.cid){
     			_ele.after("<span style='margin-left:10px;'>"+data.cid+"</span>");
@@ -123,8 +123,8 @@ var E3 = {
     			    onOpen : function(){
     			    	var _win = this;
     			    	$("ul",_win).tree({
-    			    		url:'/item/cat/list',
-    			    		animate:true,
+    			    		url: baseUrl + '/itemCat/getItemCatList',
+    			    		animate: true,
     			    		onClick : function(node){
     			    			if($(this).tree("isLeaf",node.target)){
     			    				// 填写到cid中

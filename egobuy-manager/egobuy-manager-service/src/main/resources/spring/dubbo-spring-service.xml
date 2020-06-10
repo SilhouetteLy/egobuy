@@ -25,4 +25,7 @@
     <dubbo:service interface="com.silhouette.egobuy.service.ItemService"  ref="itemService" timeout="60000"/>
     <bean id="itemService" class="com.silhouette.egobuy.service.impl.ItemServiceImpl"/>
 
+    <dubbo:service interface="com.silhouette.egobuy.service.ItemCatService" ref="itemCatService" timeout="60000"/>
+    <bean id="itemCatService" class="com.silhouette.egobuy.service.impl.ItemCatServiceImpl"/>
+
 </beans>

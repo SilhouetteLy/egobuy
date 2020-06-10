@@ -20,8 +20,12 @@
     <!--配置dubbo的监控中心，采用默认自动发现的方式-->
     <dubbo:monitor protocol="registry"></dubbo:monitor>
 
+
     <!-- 暴露服务   ref：指向服务的真正的实现对象 -->
     <dubbo:service interface="com.silhouette.egobuy.service.ItemService"  ref="itemService" timeout="60000"/>
     <bean id="itemService" class="com.silhouette.egobuy.service.impl.ItemServiceImpl"/>
+
+    <dubbo:service interface="com.silhouette.egobuy.service.ItemService" ref="itemCatService" timeout="60000"/>
+    <bean id="itemCatService" class="com.silhouette.egobuy.service.impl.ItemCatServiceImpl"/>
 
 </beans>

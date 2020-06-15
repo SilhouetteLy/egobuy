@@ -306,7 +306,7 @@
   <select id="findByPages" parameterType="com.silhouette.egobuy.query.ItemQuery" resultMap="BaseResultMap">
     select <include refid="Base_Column_List" />
     from tb_item
-    where 1=1
+    where status != '3'
         <if test="title != null" >
           and title = #{title,jdbcType=VARCHAR},
         </if>
@@ -328,9 +328,25 @@
         <if test="cid != null" >
           and cid = #{cid,jdbcType=BIGINT},
         </if>
-        <if test="status != null" >
-          and status = #{status,jdbcType=TINYINT},
-        </if>
-    order by created
+    order by status,created
   </select>
+
+  <select id="findByIds" parameterType="java.util.Arrays" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List" />
+    from tb_item
+    where id in
+        <foreach collection="ids" item="id" index="index" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+  </select>
+
+  <update id="batchUpdateItemStatus" >
+        update tb_item set
+            status = #{status},
+            updated = #{updated}
+        where id in
+          <foreach collection="ids" item="id" index="index" open="(" close=")" separator=",">
+            #{id}
+          </foreach>
+  </update>
 </mapper>

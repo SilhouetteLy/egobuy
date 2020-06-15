@@ -1,2 +1,4 @@
-com/silhouette/egobuy/service/impl/ItemCatServiceImpl.class
-com/silhouette/egobuy/service/impl/ItemServiceImpl.class
+com/silhouette/egobuy/service/impl/item/ItemDescServiceImpl.class
+com/silhouette/egobuy/service/impl/item/ItemParamServiceImpl.class
+com/silhouette/egobuy/service/impl/item/ItemServiceImpl.class
+com/silhouette/egobuy/service/impl/item/ItemCatServiceImpl.class

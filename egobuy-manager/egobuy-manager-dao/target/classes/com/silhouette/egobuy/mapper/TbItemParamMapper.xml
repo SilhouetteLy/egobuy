@@ -248,4 +248,23 @@
       updated = #{updated,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=BIGINT}
   </update>
+
+
+  <resultMap id="paramMap" type="com.silhouette.egobuy.pojo.TbItemParam" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="item_cat_id" property="itemCatId" jdbcType="BIGINT" />
+    <result column="name" property="itemCatName" jdbcType="VARCHAR"/>
+    <result column="param_data" property="paramData" jdbcType="LONGVARCHAR" />
+    <result column="created" property="created" jdbcType="TIMESTAMP" />
+    <result column="updated" property="updated" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <select id="findByPages" parameterType="com.silhouette.egobuy.query.ItemQuery" resultMap="paramMap">
+        select p.id,
+                p.item_cat_id,
+                c.name,
+                p.param_data,
+                p.created,
+                p.updated
+        from tb_item_param p left join tb_item_cat c on p.item_cat_id = c.id
+  </select>
 </mapper>

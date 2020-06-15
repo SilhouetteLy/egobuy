@@ -4,6 +4,7 @@
     <file type="web" url="file://$PROJECT_DIR$/egobuy-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager-service" />
     <file type="web" url="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/egobuy-portal-web" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -11,11 +12,13 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/egobuy-parent/pom.xml" />
         <option value="$PROJECT_DIR$/egobuy-common/pom.xml" />
         <option value="$PROJECT_DIR$/egobuy-manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-admin/pom.xml" />
         <option value="$PROJECT_DIR$/fastdfs_client/pom.xml" />
+        <option value="$PROJECT_DIR$/egobuy-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/egobuy-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/egobuy-portal-web/pom.xml" />
       </list>
     </option>
   </component>

@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager-service/egobuy-manager-service.iml" filepath="$PROJECT_DIR$/egobuy-manager/egobuy-manager-service/egobuy-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/egobuy-manager-web/egobuy-manager-web.iml" filepath="$PROJECT_DIR$/egobuy-manager-web/egobuy-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/egobuy-parent/egobuy-parent.iml" filepath="$PROJECT_DIR$/egobuy-parent/egobuy-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/egobuy-portal-web/egobuy-portal-web.iml" filepath="$PROJECT_DIR$/egobuy-portal-web/egobuy-portal-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/fastdfs_client/fastdfs_client.iml" filepath="$PROJECT_DIR$/fastdfs_client/fastdfs_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/generatorSqlmapCustom/generatorSqlmapCustom.iml" filepath="$PROJECT_DIR$/generatorSqlmapCustom/generatorSqlmapCustom.iml" />
     </modules>

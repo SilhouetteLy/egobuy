@@ -1,2 +1,4 @@
-com/silhouette/egobuy/service/ItemService.class
-com/silhouette/egobuy/service/ItemCatService.class
+com/silhouette/egobuy/service/item/ItemService.class
+com/silhouette/egobuy/service/item/ItemDescService.class
+com/silhouette/egobuy/service/item/ItemCatService.class
+com/silhouette/egobuy/service/item/ItemParamService.class

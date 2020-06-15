@@ -1,2 +1,4 @@
-/Users/silhouette/git_demo/egobuy/egobuy-manager/egobuy-manager-service/src/main/java/com/silhouette/egobuy/service/impl/ItemServiceImpl.java
-/Users/silhouette/git_demo/egobuy/egobuy-manager/egobuy-manager-service/src/main/java/com/silhouette/egobuy/service/impl/ItemCatServiceImpl.java
+/Users/silhouette/git_demo/egobuy/egobuy-manager/egobuy-manager-service/src/main/java/com/silhouette/egobuy/service/impl/item/ItemDescServiceImpl.java
+/Users/silhouette/git_demo/egobuy/egobuy-manager/egobuy-manager-service/src/main/java/com/silhouette/egobuy/service/impl/item/ItemServiceImpl.java
+/Users/silhouette/git_demo/egobuy/egobuy-manager/egobuy-manager-service/src/main/java/com/silhouette/egobuy/service/impl/item/ItemParamServiceImpl.java
+/Users/silhouette/git_demo/egobuy/egobuy-manager/egobuy-manager-service/src/main/java/com/silhouette/egobuy/service/impl/item/ItemCatServiceImpl.java

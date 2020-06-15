@@ -1,8 +1,12 @@
+com/silhouette/egobuy/utils/FastDFSClient.class
 com/silhouette/egobuy/pojo/EasyUITreeNode.class
 com/silhouette/egobuy/result/EasyUIDataGridResult.class
 com/silhouette/egobuy/result/GenericResult.class
 com/silhouette/egobuy/base/BaseConst.class
+com/silhouette/egobuy/utils/JsonUtils.class
 com/silhouette/egobuy/query/ItemQuery.class
 com/silhouette/egobuy/result/PageInfoResult.class
+com/silhouette/egobuy/result/BuyResult.class
+com/silhouette/egobuy/utils/IDUtils.class
 com/silhouette/egobuy/base/BaseResult.class
 com/silhouette/egobuy/base/BaseQuery.class

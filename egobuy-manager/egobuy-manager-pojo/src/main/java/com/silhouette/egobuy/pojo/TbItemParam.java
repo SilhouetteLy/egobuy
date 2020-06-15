@@ -1,11 +1,15 @@
 package com.silhouette.egobuy.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TbItemParam {
+public class TbItemParam implements Serializable {
+
+    private static final long serialVersionUID = 2501499921653964431L;
     private Long id;
 
     private Long itemCatId;
+    private String itemCatName;
 
     private Date created;
 
@@ -51,5 +55,13 @@ public class TbItemParam {
 
     public void setParamData(String paramData) {
         this.paramData = paramData == null ? null : paramData.trim();
+    }
+
+    public String getItemCatName() {
+        return itemCatName;
+    }
+
+    public void setItemCatName(String itemCatName) {
+        this.itemCatName = itemCatName;
     }
 }

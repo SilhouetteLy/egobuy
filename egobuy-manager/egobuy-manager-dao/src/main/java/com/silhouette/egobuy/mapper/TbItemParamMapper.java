@@ -2,7 +2,9 @@ package com.silhouette.egobuy.mapper;
 
 import com.silhouette.egobuy.pojo.TbItemParam;
 import com.silhouette.egobuy.pojo.TbItemParamExample;
+import com.silhouette.egobuy.query.ItemQuery;
 import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
@@ -34,4 +36,9 @@ public interface TbItemParamMapper {
     int updateByPrimaryKeyWithBLOBs(TbItemParam record);
 
     int updateByPrimaryKey(TbItemParam record);
+
+    @Select("select * from tb_item_param where item_cat_id = #{itemCatId}")
+    TbItemParam queryItemParamByItemCatId(@Param("itemCatId") Long itemCatId);
+
+    List<TbItemParam> findByPages(ItemQuery itemQuery);
 }

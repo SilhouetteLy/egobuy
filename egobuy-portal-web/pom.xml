@@ -20,7 +20,7 @@
         </dependency>
         <dependency>
             <groupId>com.silhouette</groupId>
-            <artifactId>egobuy-manager-interface</artifactId>
+            <artifactId>egobuy-content-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 

@@ -37,14 +37,14 @@
         <li>
             <span>网站内容管理</span>
             <ul>
-                <li data-options="attributes:{'url':'content-category'}">内容分类管理</li>
-                <li data-options="attributes:{'url':'content'}">内容管理</li>
+                <li data-options="attributes:{'url':'content/contentCategory'}">内容分类管理</li>
+                <li data-options="attributes:{'url':'content/contentList'}">内容管理</li>
             </ul>
         </li>
         <li>
             <span>索引库管理</span>
             <ul>
-                <li data-options="attributes:{'url':'index-item'}">solr索引库维护</li>
+                <li data-options="attributes:{'url':'index/indexItem'}">solr索引库维护</li>
             </ul>
         </li>
     </ul>

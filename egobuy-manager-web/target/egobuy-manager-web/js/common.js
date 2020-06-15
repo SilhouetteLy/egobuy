@@ -90,7 +90,7 @@ var E3 = {
 						clickFn : function(urlList) {
 							var imgArray = [];
 							KindEditor.each(urlList, function(i, data) {
-								imgArray.push(baseUrl + data.url);
+								imgArray.push(data.url);
 								form.find(".pics ul").append("<li><a href='" + data.url+"' target='_blank'><img src='" + data.url+"' width='80' height='50' /></a></li>");
 							});
 							form.find("[name=image]").val(imgArray.join(","));
@@ -123,7 +123,7 @@ var E3 = {
     			    onOpen : function(){
     			    	var _win = this;
     			    	$("ul",_win).tree({
-    			    		url: baseUrl + '/itemCat/getItemCatList',
+    			    		url: '/itemCat/getItemCatList',
     			    		animate: true,
     			    		onClick : function(node){
     			    			if($(this).tree("isLeaf",node.target)){

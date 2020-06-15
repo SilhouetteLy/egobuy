@@ -5,14 +5,13 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
-    <dubbo:application name="manager-consumer"/>
+    <dubbo:application name="content-consumer"/>
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
     <!-- 配置dubbo服务和端口号 -->
     <dubbo:protocol name="dubbo" port="20881"/>
 
-    <!-- 配置当前消费者的统一规则：所有的服务都不检查 -->
-    <dubbo:consumer check="false" timeout="60000"/>
-    <!--配置dubbo的监控中心，采用默认自动发现的方式-->
-    <dubbo:monitor protocol="registry"/>
+    <dubbo:reference interface="com.silhouette.content.service.ContentService" id="contentService" retries="3"/>
+
+    <dubbo:reference interface="com.silhouette.content.service.ContentCategoryService" id="contentCategoryService" retries="3"/>
 
 </beans>

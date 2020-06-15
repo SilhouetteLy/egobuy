@@ -1,8 +1,11 @@
 package com.silhouette.egobuy.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TbContent {
+public class TbContent implements Serializable {
+    private static final long serialVersionUID = 609947223301095586L;
+
     private Long id;
 
     private Long categoryId;

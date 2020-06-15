@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dubbo-admin/dubbo-admin.iml" filepath="$PROJECT_DIR$/dubbo-admin/dubbo-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/egobuy-common/egobuy-common.iml" filepath="$PROJECT_DIR$/egobuy-common/egobuy-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/egobuy-content/egobuy-content.iml" filepath="$PROJECT_DIR$/egobuy-content/egobuy-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/egobuy-content/egobuy-content-interface/egobuy-content-interface.iml" filepath="$PROJECT_DIR$/egobuy-content/egobuy-content-interface/egobuy-content-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/egobuy-content/egobuy-content-service/egobuy-content-service.iml" filepath="$PROJECT_DIR$/egobuy-content/egobuy-content-service/egobuy-content-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager.iml" filepath="$PROJECT_DIR$/egobuy-manager/egobuy-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager-dao/egobuy-manager-dao.iml" filepath="$PROJECT_DIR$/egobuy-manager/egobuy-manager-dao/egobuy-manager-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager-interface/egobuy-manager-interface.iml" filepath="$PROJECT_DIR$/egobuy-manager/egobuy-manager-interface/egobuy-manager-interface.iml" />

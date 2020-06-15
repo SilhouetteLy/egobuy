@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!--<dubbo:application   这个配置一个项目里面只能有一个-->
+    <!--<dubbo:application name="content-consumer"/>-->
+    <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
+
+    <!--声明需要调用的远程服务的接口；生成远程服务代理  -->
+    <dubbo:annotation package="com.silhouette.egobuy.controller.*"/>
+    <dubbo:reference interface="com.silhouette.content.service.ContentService" id="contentService" retries="3"/>
+
+    <dubbo:reference interface="com.silhouette.content.service.ContentCategoryService" id="contentCategoryService" retries="3"/>
+</beans>

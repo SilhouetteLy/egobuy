@@ -32,7 +32,7 @@
     <!-- 加载spring容器 -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:spring/manager-service-consumer.xml</param-value>
+        <param-value>classpath:spring/*consumer.xml</param-value>
     </context-param>
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>

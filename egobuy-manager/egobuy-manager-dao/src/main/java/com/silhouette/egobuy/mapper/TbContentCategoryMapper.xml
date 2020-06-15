@@ -103,6 +103,9 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.silhouette.egobuy.pojo.TbContentCategory" >
+    <selectKey keyProperty="id" keyColumn="id" resultType="long" order="AFTER">
+      SELECT LAST_INSERT_ID();
+    </selectKey>
     insert into tb_content_category (id, parent_id, name, 
       status, sort_order, is_parent, 
       created, updated)
@@ -255,4 +258,11 @@
       updated = #{updated,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=BIGINT}
   </update>
+
+  <select id="selectByParentId" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select
+    <include refid="Base_Column_List" />
+    from tb_content_category
+    where parent_id = #{parentId,jdbcType=BIGINT}
+  </select>
 </mapper>

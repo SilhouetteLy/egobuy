@@ -17,9 +17,6 @@
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181" />
     <!-- 用dubbo协议在20880端口暴露服务 -->
     <dubbo:protocol name="dubbo" port="20880" />
-    <!--配置dubbo的监控中心，采用默认自动发现的方式-->
-    <dubbo:monitor protocol="registry"></dubbo:monitor>
-
 
     <!-- 暴露服务   ref：指向服务的真正的实现对象 -->
     <dubbo:service interface="com.silhouette.egobuy.service.item.ItemService" ref="itemService" timeout="60000"/>

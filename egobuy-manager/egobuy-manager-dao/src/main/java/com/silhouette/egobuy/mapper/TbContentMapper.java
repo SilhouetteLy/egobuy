@@ -2,6 +2,7 @@ package com.silhouette.egobuy.mapper;
 
 import com.silhouette.egobuy.pojo.TbContent;
 import com.silhouette.egobuy.pojo.TbContentExample;
+import com.silhouette.egobuy.query.ContentQuery;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -34,4 +35,6 @@ public interface TbContentMapper {
     int updateByPrimaryKeyWithBLOBs(TbContent record);
 
     int updateByPrimaryKey(TbContent record);
+
+    List<TbContent> findByPages(ContentQuery contentQuery);
 }

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/egobuy-content/egobuy-content-service" />
     <file type="web" url="file://$PROJECT_DIR$/egobuy-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager-service" />
     <file type="web" url="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager-web" />
@@ -19,6 +20,7 @@
         <option value="$PROJECT_DIR$/egobuy-parent/pom.xml" />
         <option value="$PROJECT_DIR$/egobuy-manager/pom.xml" />
         <option value="$PROJECT_DIR$/egobuy-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/egobuy-content/pom.xml" />
       </list>
     </option>
   </component>

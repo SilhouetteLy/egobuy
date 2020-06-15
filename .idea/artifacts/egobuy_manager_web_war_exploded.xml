@@ -20,6 +20,9 @@
           <element id="archive" name="egobuy-manager-pojo-1.0-SNAPSHOT.jar">
             <element id="module-output" name="egobuy-manager-pojo" />
           </element>
+          <element id="archive" name="egobuy-content-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="egobuy-content-interface" />
+          </element>
           <element id="archive" name="egobuy-common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="egobuy-common" />
           </element>

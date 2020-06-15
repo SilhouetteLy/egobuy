@@ -100,12 +100,14 @@
 
         $("#itemeEditForm [name=itemParams]").val(paramJson);
 
-        $.post("/rest/item/update",$("#itemeEditForm").serialize(), function(data){
+        $.post("${pageContext.request.contextPath}/item/updateItem",$("#itemeEditForm").serialize(), function(data){
             if(data.status == 200){
                 $.messager.alert('提示','修改商品成功!','info',function(){
                     $("#itemEditWindow").window('close');
                     $("#itemList").datagrid("reload");
                 });
+            }else{
+                $.messager.alert('提示',data.msg);
             }
         });
     }

@@ -31,8 +31,8 @@
           <element id="library" level="project" name="Maven: org.quartz-scheduler:quartz:2.2.2" />
           <element id="library" level="project" name="Maven: c3p0:c3p0:0.9.1.1" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.6" />
-          <element id="archive" name="egobuy-manager-interface-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="egobuy-manager-interface" />
+          <element id="archive" name="egobuy-content-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="egobuy-content-interface" />
           </element>
           <element id="archive" name="egobuy-manager-pojo-1.0-SNAPSHOT.jar">
             <element id="module-output" name="egobuy-manager-pojo" />

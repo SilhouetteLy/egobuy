@@ -66,7 +66,7 @@
 
     <!-- 设置静态资源不过滤 -->
     <mvc:resources location="/css/" mapping="/css/**" />
-    <mvc:resources location="/img/" mapping="/img/**" />
+    <mvc:resources location="/images/" mapping="/images/**" />
     <mvc:resources location="/js/" mapping="/js/**" />
     <mvc:resources location="/plugins/" mapping="/plugins/**" />
 </beans>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/buy-portal-web" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/buy-portal-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-admin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/egobuy-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/egobuy-content" charset="UTF-8" />
@@ -15,8 +13,11 @@
     <file url="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager-pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/egobuy-manager/egobuy-manager-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/egobuy-parent" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/egobuy-parent/buy-portal-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/egobuy-portal-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/egobuy-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/egobuy-search-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/egobuy-search/egobuy-search-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/egobuy-search/egobuy-search-service" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

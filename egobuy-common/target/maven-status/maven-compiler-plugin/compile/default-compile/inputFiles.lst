@@ -1,4 +1,5 @@
 /Users/silhouette/git_demo/egobuy/egobuy-common/src/main/java/com/silhouette/egobuy/utils/FastDFSClient.java
+/Users/silhouette/git_demo/egobuy/egobuy-common/src/main/java/com/silhouette/egobuy/redis/JedisClient.java
 /Users/silhouette/git_demo/egobuy/egobuy-common/src/main/java/com/silhouette/egobuy/result/EasyUIDataGridResult.java
 /Users/silhouette/git_demo/egobuy/egobuy-common/src/main/java/com/silhouette/egobuy/result/PageInfoResult.java
 /Users/silhouette/git_demo/egobuy/egobuy-common/src/main/java/com/silhouette/egobuy/exception/BaseTxException.java
@@ -8,10 +9,12 @@
 /Users/silhouette/git_demo/egobuy/egobuy-common/src/main/java/com/silhouette/egobuy/result/BuyResult.java
 /Users/silhouette/git_demo/egobuy/egobuy-common/src/main/java/com/silhouette/egobuy/exception/BaseAppException.java
 /Users/silhouette/git_demo/egobuy/egobuy-common/src/main/java/com/silhouette/egobuy/utils/IDUtils.java
+/Users/silhouette/git_demo/egobuy/egobuy-common/src/main/java/com/silhouette/egobuy/redis/JedisClientPool.java
 /Users/silhouette/git_demo/egobuy/egobuy-common/src/main/java/com/silhouette/egobuy/utils/FormatUtil.java
 /Users/silhouette/git_demo/egobuy/egobuy-common/src/main/java/com/silhouette/egobuy/base/BaseQuery.java
 /Users/silhouette/git_demo/egobuy/egobuy-common/src/main/java/com/silhouette/egobuy/query/ContentQuery.java
 /Users/silhouette/git_demo/egobuy/egobuy-common/src/main/java/com/silhouette/egobuy/base/BaseConst.java
 /Users/silhouette/git_demo/egobuy/egobuy-common/src/main/java/com/silhouette/egobuy/utils/JsonUtils.java
+/Users/silhouette/git_demo/egobuy/egobuy-common/src/main/java/com/silhouette/egobuy/redis/JedisClientCluster.java
 /Users/silhouette/git_demo/egobuy/egobuy-common/src/main/java/com/silhouette/egobuy/base/BaseResult.java
 /Users/silhouette/git_demo/egobuy/egobuy-common/src/main/java/com/silhouette/egobuy/result/GenericResult.java

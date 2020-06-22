@@ -6,17 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="egobuy-content-service" />
-        <module name="dubbo-admin" />
-        <module name="egobuy-manager-web" />
-        <module name="egobuy-portal-web" />
         <module name="egobuy-common" />
-        <module name="egobuy-content-interface" />
-        <module name="egobuy-manager-pojo" />
-        <module name="egobuy-manager-interface" />
-        <module name="fastdfs_client" />
+        <module name="egobuy-search-web" />
         <module name="egobuy-manager-dao" />
+        <module name="egobuy-search-service" />
+        <module name="egobuy-manager-pojo" />
+        <module name="egobuy-content-interface" />
+        <module name="fastdfs_client" />
+        <module name="egobuy-search-interface" />
+        <module name="egobuy-content-service" />
+        <module name="egobuy-portal-web" />
+        <module name="egobuy-manager-web" />
         <module name="egobuy-manager-service" />
+        <module name="egobuy-manager-interface" />
+        <module name="dubbo-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +37,10 @@
       <module name="egobuy-manager-web" target="1.8" />
       <module name="egobuy-parent" target="1.8" />
       <module name="egobuy-portal-web" target="1.8" />
+      <module name="egobuy-search" target="1.8" />
+      <module name="egobuy-search-interface" target="1.8" />
+      <module name="egobuy-search-service" target="1.8" />
+      <module name="egobuy-search-web" target="1.8" />
       <module name="fastdfs_client" target="1.5" />
     </bytecodeTargetLevel>
   </component>

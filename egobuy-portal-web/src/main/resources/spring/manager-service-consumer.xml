@@ -7,8 +7,6 @@
 
     <dubbo:application name="content-consumer"/>
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
-    <!-- 配置dubbo服务和端口号 -->
-    <dubbo:protocol name="dubbo" port="20881"/>
 
     <dubbo:reference interface="com.silhouette.content.service.ContentService" id="contentService" retries="3"/>
 

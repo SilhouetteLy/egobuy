@@ -11,7 +11,7 @@
     <!-- 注册中心的地址 -->
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181" />
     <!-- 用dubbo协议在20880端口暴露服务 -->
-    <dubbo:protocol name="dubbo" port="20882" />
+    <dubbo:protocol name="dubbo" port="20881" />
 
     <!-- 暴露服务   ref：指向服务的真正的实现对象 -->
     <dubbo:service interface="com.silhouette.content.service.ContentService" ref="contentService" timeout="60000"/>

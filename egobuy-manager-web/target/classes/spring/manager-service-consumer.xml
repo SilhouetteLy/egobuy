@@ -7,8 +7,6 @@
 
     <dubbo:application name="manager-consumer"/>
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
-    <!-- 配置dubbo服务和端口号 -->
-    <dubbo:protocol name="dubbo" port="20881"/>
 
     <!--声明需要调用的远程服务的接口；生成远程服务代理  -->
     <!-- timeout="0" 默认是1000ms-->

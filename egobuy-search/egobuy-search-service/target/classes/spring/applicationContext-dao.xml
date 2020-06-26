@@ -11,7 +11,17 @@
 
     <!-- 数据库连接池 -->
     <!-- 加载配置文件 -->
-    <context:property-placeholder location="classpath:jdbc.properties" />
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:jdbc.properties</value>
+                <value>classpath:solr.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <context:component-scan base-package="com.silhouette.search.dao" />
+
     <!-- 数据库连接池 -->
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"  destroy-method="close">
         <property name="url" value="${jdbc.url}" />

@@ -1,0 +1,3 @@
+com/silhouette/search/mapper/SearchItemMapper.class
+com/silhouette/search/dao/SearchItemDao.class
+com/silhouette/search/service/impl/SearchItemServiceImpl.class

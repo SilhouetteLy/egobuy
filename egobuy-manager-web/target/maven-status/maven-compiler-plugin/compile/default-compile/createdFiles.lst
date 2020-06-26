@@ -3,5 +3,6 @@ com/silhouette/egobuy/controller/content/ContentCategoryController.class
 com/silhouette/egobuy/controller/item/ItemController.class
 com/silhouette/egobuy/controller/picture/PictureController.class
 com/silhouette/egobuy/controller/item/ItemCatController.class
+com/silhouette/egobuy/controller/index/IndexController.class
 com/silhouette/egobuy/controller/content/ContentController.class
 com/silhouette/egobuy/controller/item/ItemDescController.class

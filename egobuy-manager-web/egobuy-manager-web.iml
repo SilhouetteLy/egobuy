@@ -33,6 +33,7 @@
     <orderEntry type="module" module-name="egobuy-manager-interface" />
     <orderEntry type="module" module-name="egobuy-manager-pojo" />
     <orderEntry type="module" module-name="egobuy-content-interface" />
+    <orderEntry type="module" module-name="egobuy-search-interface" />
     <orderEntry type="module" module-name="egobuy-common" />
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.3.2" level="project" />

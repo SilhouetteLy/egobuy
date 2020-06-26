@@ -6,7 +6,7 @@
 
     <display-name>egobuy-search-web</display-name>
     <welcome-file-list>
-        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
     <!-- 解决post乱码 -->
     <filter>
@@ -33,7 +33,7 @@
 
     <!-- springmvc的前端控制器 -->
     <servlet>
-        <servlet-name>buy-search</servlet-name>
+        <servlet-name>egobuy-search</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <!-- contextConfigLocation不是必须的， 如果不配置 contextConfigLocation，
         springmvc的配置文件默认在：WEB-INF/servlet的name+"-servlet.xml" -->
@@ -44,7 +44,7 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>buy-search</servlet-name>
+        <servlet-name>egobuy-search</servlet-name>
         <url-pattern>*.html</url-pattern>
     </servlet-mapping>
 </web-app>

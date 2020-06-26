@@ -17,9 +17,6 @@
             http://www.springframework.org/schema/util
             http://www.springframework.org/schema/util/spring-util-4.2.xsd">
 
-    <!-- 加载配置文件 -->
-    <context:property-placeholder location="classpath:solr.properties" />
-
     <!-- 配置一个链接单机版的solrServer -->
     <bean id="solrServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer">
         <constructor-arg name="baseURL" value="${BASE_URL}"/>

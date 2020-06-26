@@ -22,8 +22,7 @@
 <div class="linknav">
     <div class="schArticle">
         <a href="${pageContext.request.contextPath}/article/search?keyword=%E6%9C%88%E9%A5%BC"
-           target="_blank">找到和“<span>${query}</span>”相关的文章<span
-                id="articlenum">${totalPages }</span>篇&gt;&gt;
+           target="_blank">找到和“<span>${query}</span>”相关的文章<span id="articlenum">${totalPages}</span>篇&gt;&gt;
         </a>
     </div>
     <div class="breadcrumb">
@@ -37,38 +36,44 @@
         <div class="r-filter">
             <div class="f-sort">
                 <div class="pagin">
-                    <span class="txt"><span class="n">${page }</span>/${totalPages }</span>
-                    <span class="prev">上一页</span><span class="next">下一页</span></div>
-                <div class="total">共<span>${recourdCount }</span>个商品</div>
+                    <span class="txt"><span class="n">${page}</span>/${totalPages}</span>
+                    <a href="${pageContext.request.contextPath}/search.html?keyword=${query}&page=1&rows=${rows}"><span class="prev">首页</span></a>
+                    <c:if test="${totalPages >1}">
+                        <c:if test="${page != 1}">
+                            <a href="${pageContext.request.contextPath}/search.html?keyword=${query}&page=${page-1}&rows=${rows}"><span class="prev">上一页</span></a>
+                        </c:if>
+                        <c:if test="${page != totalPages}">
+                            <a href="${pageContext.request.contextPath}/search.html?keyword=${query}&page=${page+1}&rows=${rows}"><span class="next">下一页</span></a>
+                        </c:if>
+                    </c:if>
+                    <a href="${pageContext.request.contextPath}/search.html?keyword=${query}&page=${totalPages}&rows=${rows}"><span class="next">尾页</span></a>
+                </div>
+                <div class="total">共<span>${recourdCount}</span>个商品</div>
             </div>
         </div>
 
         <a name="prolist" id="prolist"></a>
         <div class="p-list">
             <ul class="list-all">
-                <c:forEach items="${itemList }" var="item">
+                <c:forEach items="${itemList}" var="item">
                     <li>
                         <div class="l-wrap">
                             <div class="pic">
-                                <a class="trackref" href="http://localhost:8086/item/${item.id}.html" title=""
-                                   target="_blank">
-                                    <img src="${item.images[0] }" style="display:inline"/>
+                                <a class="trackref" href="http://localhost:8086/item/${item.id}.html" title=""target="_blank">
+                                    <img src="${item.image}" style="display:inline"/>
                                 </a>
                             </div>
                             <div class="price">
-                                <span><span class="p-now">￥<strong><fmt:formatNumber groupingUsed="false"
-                                                                                     maxFractionDigits="2"
-                                                                                     minFractionDigits="2"
-                                                                                     value="${item.price / 100 }"/></strong></span><span
-                                        class="p-nor"></span><span class="active" style="">直降</span></span>
+                                <span><span class="p-now">￥<strong>
+                                    <fmt:formatNumber groupingUsed="false"  maxFractionDigits="2" minFractionDigits="2" value="${item.price / 100 }"/></strong>
+                                </span>
+                                <span class="p-nor"></span><span class="active" style="">直降</span></span>
                             </div>
                             <div class="title-a">
-                                <a class="trackref presaleSign_225865" href="http://localhost:8086/item/${item.id}.html"
-                                   target="_blank">${item.title }</a>
+                                <a class="trackref presaleSign_225865" href="http://localhost:8086/item/${item.id}.html" target="_blank">${item.title }</a>
                             </div>
-                            <div class="title-b" style=""><a class="trackref"
-                                                             href="http://localhost:8086/item/${item.id}.html"
-                                                             target="_blank">${sell_point }</a></div>
+                            <div class="title-b" style="">
+                                <a class="trackref" href="http://localhost:8086/item/${item.id}.html" target="_blank">${sell_point }</a></div>
                             <div class="comment">
                                 <div class="owner_shop_list">自营</div>
                             </div>

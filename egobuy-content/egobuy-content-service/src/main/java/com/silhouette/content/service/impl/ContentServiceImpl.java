@@ -8,7 +8,7 @@ import com.silhouette.egobuy.mapper.TbContentMapper;
 import com.silhouette.egobuy.pojo.TbContent;
 import com.silhouette.egobuy.pojo.TbContentExample;
 import com.silhouette.egobuy.query.ContentQuery;
-import com.silhouette.egobuy.redis.JedisClient;
+import com.silhouette.egobuy.utils.redis.JedisClient;
 import com.silhouette.egobuy.result.BuyResult;
 import com.silhouette.egobuy.result.EasyUIDataGridResult;
 import com.silhouette.egobuy.utils.JsonUtils;

@@ -31,6 +31,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="egobuy-search-interface" />
+    <orderEntry type="module" module-name="egobuy-search-interface" />
     <orderEntry type="module" module-name="egobuy-manager-pojo" />
     <orderEntry type="module" module-name="egobuy-manager-dao" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.4.5" level="project" />
